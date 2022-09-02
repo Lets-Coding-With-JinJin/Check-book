@@ -1,0 +1,22 @@
+{
+  "name": "check-book",
+  "version": "1.0.0",
+  "description": "독서기록 웹앱 서비스 &lt;Check책: 첵책> 프로젝트 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lets-Coding-With-JinJin/Check-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lets-Coding-With-JinJin/Check-book/issues"
+  },
+  "homepage": "https://github.com/Lets-Coding-With-JinJin/Check-book#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

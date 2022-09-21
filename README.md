@@ -3,4 +3,4 @@
 
 ---------
 Frontend: React + TypeScript
-Backend: Spring + Java
+Backend: NodeJS + Express

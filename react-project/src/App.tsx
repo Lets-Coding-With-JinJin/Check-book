@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
-import { BookNote } from "./pages/BookNote"
+import { BookNote } from "./pages/booknote/BookNote"
 
 function App() {
   return (

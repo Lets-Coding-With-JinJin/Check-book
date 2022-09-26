@@ -1,18 +1,30 @@
 import { Card } from "react-bootstrap"
 import { Container } from "react-bootstrap"
+import CardHeader from "react-bootstrap/esm/CardHeader"
 
 type ReadingListProps = {
     id: number,
     name: string,
-    author: string,
+    date: string,
     imgUrl: string
 }
 
-export function ReadingList() {
+export function ReadingList({id, name, date, imgUrl}:
+ReadingListProps) {
     return (
-        <Container>
-                <h1>독서 기록</h1>
-                <h2>읽고 있는 책 중에서 기록하고자 하는 책을 선택하세요.</h2>
-        </Container>
+        <Card className="h-100">
+            <Card.Img
+                src={imgUrl} 
+                width="30px"
+                height="70px" 
+                style={{ objectFit: "cover" }}
+            />
+            <Card.Body className="d-flex">
+                <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
+                    <span className="fs-2">{name}</span>
+                    <span className="ms-2 text-muted">{date}</span>
+                </Card.Title>
+            </Card.Body>
+        </Card>
     )
 }

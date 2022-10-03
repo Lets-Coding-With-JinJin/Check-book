@@ -17,6 +17,8 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/react-project/build/index.html'));
 });
 
+console.log('Hello world')
+
 // 고객이 URL에 아무거나 입력하면 리액트 프로젝트 보내줌(리액트 라우팅)
 // 가장 하단에 놓아야 함
 app.get('*', function(req, res) {

@@ -1,0 +1,17 @@
+{
+    "links": [
+        {
+            "label": "홈",
+            "href": "../main.tsx"
+        },
+        {
+            "label": "독서기록",
+            "href": "../record.tsx"
+        },
+        {
+            "label": "내 정보",
+            "href": "../info.tsx"
+        }
+
+    ]
+}

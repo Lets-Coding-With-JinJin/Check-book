@@ -3,7 +3,7 @@
         "id": 1,
         "name": "도서1",
         "date": "읽기 시작한 날짜",
-        "imgUrl": "/imgs/"
+        "imgUrl": "/imgs/book1.jpg"
     },
     {
         "id": 2,

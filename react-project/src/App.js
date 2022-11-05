@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, useEffect } from 'react';  
+import {useState} from 'react';  
+import AppRouter from './Router';
+import {authService} from "../fBase";
 
 function App() {
+  const [Init, setInit] = useState(false);
+  const [isLoggedIn, setIsLoggedIn]=useState(false); //로그인 여부를 판별할 수 있음
+  const [userObj,setUserObj]=useState(null);
+  useEffect(()=>{
+    authService.onAuthStateChanged((user)=>{
+      if(user){
+        setIsLoggedIn(true);
+        setUserObj(user);
+      }else {
+        setIsLoggedIn(false);
+      }
+      setInit(true);  //변화를 듣고 있음
+    });
+  },[]);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+     {Init ? <AppRouter isLoggedIn={isLoggedIn} userObj={userObj}/> : "Initializing..."}
+     
+     
+     </>
+   
   );
 }
 

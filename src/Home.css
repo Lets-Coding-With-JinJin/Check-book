@@ -1,0 +1,49 @@
+.home-event1 {
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    left: 0px;
+    top: 64px;
+}
+
+.rec {
+    position: absolute;
+    height: 30px;
+    left: 64px;
+    top: 448px;
+
+    /* Header/2 */
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.24px;
+
+    /* black */
+
+    color: #292525;
+}
+
+.rec-age {
+    position: absolute;
+    height: 24px;
+    left: 64px;
+    top: 490px;
+
+    /* Paragraph/2 */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    letter-spacing: -0.24px;
+
+    /* gray/50 */
+    color: #7E808A;
+}

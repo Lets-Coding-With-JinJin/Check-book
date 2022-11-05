@@ -1,0 +1,128 @@
+/* header/non-login */
+
+.header {
+    position: absolute;
+    height: 64px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #D7DAE7;
+}
+
+.header-logo {
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    left: 64px;
+    top: calc(50% - 24px/2);
+}
+
+.header-search {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 344px;
+    height: 24px;
+    left: 234px;
+    top: 12px;
+    bottom: 12px;
+    
+    background: rgba(41, 37, 37, 0.05);
+    border-radius: 8px;
+
+    letter-spacing: -0.24px;
+    color: #7E808A;
+}
+
+.header-search-input {
+    padding: 0;
+    padding-left: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #7E808A;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 249px;
+    right: 1173px;
+    top: 23px;
+    bottom: 23px;
+}
+
+.header-option{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 1100px;
+    top: 20px;
+}
+
+.header-optionLineOne {
+    width: 42px;
+    height: 24px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+
+    letter-spacing: -0.24px;
+    color: #51535A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.header-optionLineTwo {
+    /* 회원가입 */
+    width: 55px;
+    height: 24px;
+
+    /* Paragraph/2 */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+    letter-spacing: -0.24px;
+
+    /* gray/80 */
+
+    color: #51535A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}

@@ -8,7 +8,7 @@
     top: 0px;
     display: flex;
     background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #D7DAE7;
+    border-bottom: 1px solid #D7DAE7;
 }
 
 .header-logo {

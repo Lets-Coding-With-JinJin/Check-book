@@ -6,7 +6,7 @@
     top: 64px;
 }
 
-.rec {
+.rec-rec {
     position: absolute;
     height: 30px;
     left: 64px;
@@ -46,4 +46,46 @@
 
     /* gray/50 */
     color: #7E808A;
+}
+
+.rec-ctgy {
+    position: absolute;
+    height: 30px;
+    left: 64px;
+    top: 1290px;
+
+    /* Header/2 */
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.24px;
+
+    /* black */
+
+    color: #292525;
+}
+
+.rec-review {
+    position: absolute;
+    height: 30px;
+    left: 64px;
+    top: 2044px;
+
+    /* Header/2 */
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.24px;
+
+    /* black */
+
+    color: #292525;
 }

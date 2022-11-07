@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,12 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Check-book
-독서기록 웹앱 서비스 &lt;Check책: 첵책> 프로젝트 입니다. 
-
----------
-Frontend: React + TypeScript
-<br>
-Backend: NodeJS + Express
->>>>>>> e38bc3e1a705022d057055e27d93065c3135f712

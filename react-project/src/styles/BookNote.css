@@ -1,0 +1,36 @@
+.booknote{
+    width: 700px;
+    display: inline;
+}
+
+.book-list{
+    float: left;
+    border-right: 1px solid gray;
+    width: 400px;
+    height: 700px;
+    padding: 50px;
+}
+
+.book-note{
+    float: right;
+    width: 600px;
+    height: 700px;
+    margin-top: 70px;
+    margin-left: -30px;
+    display: align-items;
+}
+
+.book-note .bookTitle{
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.book-note .summary{
+    height: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.book-note .context{
+    height: 100px;
+    border-bottom: 1px solid gray;
+}

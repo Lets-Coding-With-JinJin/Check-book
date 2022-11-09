@@ -1,20 +1,12 @@
-import React, { Component } from 'react';
-import { BrowserRouter,Routes,Route} from "react-router-dom";
-import Home from './pages/HomePage/Home'
-import BookNote from './pages/BookNotePage/BookNote'
-import './App.css';
+import React from 'react';
+import Views from "./Views";
 
-const App = () => {
+function App() {
   return (
-    <div className='App'>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/BookNote/:BookNoteId" element={<BookNote />}></Route>
-        </Routes>
-      </BrowserRouter>
+    <div className="App">
+      <Views />
     </div>
   );
-};
+}
 
 export default App;

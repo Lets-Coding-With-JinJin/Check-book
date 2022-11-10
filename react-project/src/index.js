@@ -1,17 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Router } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+
 import App from './App';
-import { Provider } from "react-redux";
-import store from "./utils/store";
-import { createBrowserHistory } from "history";
-const history = createBrowserHistory();
+import board_reducer from './App_reducer';
+
+let store = createStore(board_reducer
+				, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+				, applyMiddleware(thunk) );
 
 ReactDOM.render(
-  <Provider store={store}>
-    <Router history={history}>
-      <App />
-    </Router>
-  </Provider>,
-  document.getElementById('root')
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById('root')
 );

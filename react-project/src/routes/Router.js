@@ -1,4 +1,5 @@
 import { Routes, Route} from "react-router-dom";
+import Home from "../pages/Home";
 import BookNote from '../pages/BookNotePage/BookNote';
 import NoteList from '../pages/BookNotePage/NoteList';
 import Note from '../pages/BookNotePage/Note';
@@ -8,6 +9,8 @@ function Router() {
     return (
         <div>
             <Routes>
+                <Route path={"/"} exact><Home/></Route>
+                <Route path={"/*"} exact><Home/></Route>
                 <Route path={"/booknote"} exact><BookNote/></Route>
                 <Route path={"/booknote/board/:boardId"} exact><NoteList/></Route>
                 <Route path={"/booknote/note/:noteId"} exact><Note/></Route>

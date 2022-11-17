@@ -1,0 +1,41 @@
+.write.column{
+    flex-direction: column;
+    width: 835px;
+    height: 786px;
+    margin-left: 541px;
+    margin-top: 64px;
+    border-radius: 0px;   
+    box-shadow: 0px 1px 0px #D7DAE7;
+}
+
+.booktitle label{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0px 4px;
+    line-height: 25px;
+    letter-spacing: -0.24px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    text-decoration: #7E808A;
+}
+.booksummary label{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 4px;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    text-decoration: #7E808A;
+}
+.booknote label{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 4px;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    text-decoration: #7E808A;
+    text-align: top;
+}

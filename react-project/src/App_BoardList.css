@@ -1,12 +1,11 @@
 .write.column{
-    position: absolute;
     flex-direction: column;
     width: 835px;
     height: 786px;
     margin-left: 541px;
     margin-top: 64px;
     border-radius: 0px;   
-    box-shadow: 0px #D7DAE7;
+    box-shadow: 0px 1px 0px #D7DAE7;
 }
 
 .booktitle label{
@@ -19,9 +18,6 @@
     font-style: normal;
     text-decoration: #7E808A;
 }
-.booktitle{
-    margin-top: -73px;
-}
 .booksummary label{
     font-size: 16px;
     font-weight: 500;
@@ -32,7 +28,6 @@
     font-style: normal;
     text-decoration: #7E808A;
 }
-
 .booknote label{
     font-size: 16px;
     font-weight: 500;
@@ -57,7 +52,7 @@
     width: 389.5px;
     height: 48px;
     /* gray/10 */
-    background:  #456EFF;
+    /* background:  #F3F4F7; */
     border-radius: 8px;
 
     font-family: 'Pretendard';
@@ -69,50 +64,4 @@
     letter-spacing: -0.24px;
     /* gray/50 */
     color: #FFFF;
-}
-
-/* ----------------------- */
-
-.booklist.column{
-    flex-direction: column;
-    position: absolute;
-    width: 477px;
-    height: 960px;
-    margin-left: 64px;
-    margin-top: 64px;
-    
-    /* white */
-    
-    background: #FFFFFF;
-    box-shadow: 1px 0px 0px #D7DAE7;
-}
-#header{
-    height: 30px;
-    left: 80px;
-    top: 96px;
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.24px;
-    color: #292525;
-}
-#subtitle{
-    height: 24px;
-    left: 80px;
-    top: 138px;
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.24px;
-    color: #7E808A;
-}
-#book{
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 8px;
 }

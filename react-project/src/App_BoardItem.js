@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import { board_read, firebase_board_remove } from './App_reducer'
 
+import './App_BoardItem.css'
+
 const BoardItem = ({row, inx, board_read, firebase_board_remove}) => (
     <tr>
         <td>{inx}</td>

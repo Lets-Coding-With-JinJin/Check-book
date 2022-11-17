@@ -38,7 +38,7 @@ class BoardForm extends Component {
                 <Box
                     component="form"
                     sx={{
-                        '& .MuiTextField-root': { m: 1, width: '836px', top: '64px' },
+                        '& .MuiTextField-root': { m: 1, width: '1312px', top: '64px' },
                     }}
                     noValidate
                     autoComplete="off"
@@ -53,7 +53,15 @@ class BoardForm extends Component {
                         <div className="booknote"><TextField label="독서 기록 내용을 작성해주세요" placeholder="Placeholder"
                             multiline variant="standard" rows={20} name="booknote" value={this.state.booknote} onChange={this.handleChange} />
                         </div>
-                        <div><Button onClick={this.handleSave}>독서기록 작성 완료</Button></div>
+                        <div className="savebutton"><Button onClick={this.handleSave} variant="contained">독서기록 작성 완료</Button></div>
+                    </div>
+                
+                    <div className="booklist column">
+                        <div className="title"><h1 id='header'>독서 기록 작성</h1></div>
+                        <div className='subtitle'><p id='subtitle'>읽고있는 책 중에서 기록하고자 하는 책을 선택하세요.</p></div>
+                        <div className="list">
+                            <p id='book'><img src='./public/book1.png'></img></p>
+                        </div>
                     </div>
                 </Box>
             </>

@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 
 import BoardForm from './App_BoardForm';
 import BoardList from './App_BoardList';
+import BookDetail from './App_BookDetail';
+import Header from './Header';
 
 class App extends Component {
     
     render() {
         return (
             <div>
-                <BoardForm/>
-                <BoardList/>
+                
+                <Header/>
+                <BookDetail/>
             </div>
         );
     }

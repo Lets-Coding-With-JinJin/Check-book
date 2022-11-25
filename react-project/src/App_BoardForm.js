@@ -60,7 +60,7 @@ class BoardForm extends Component {
                         <div className="title"><h1 id='header'>독서 기록 작성</h1></div>
                         <div className='subtitle'><p id='subtitle'>읽고있는 책 중에서 기록하고자 하는 책을 선택하세요.</p></div>
                         <div className="list">
-                            <p id='book'><img src='./public/book1.png'></img></p>
+                            <p id='book'><img src='./book1.png'></img></p>
                         </div>
                     </div>
                 </Box>

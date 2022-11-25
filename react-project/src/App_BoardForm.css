@@ -19,6 +19,11 @@
     font-style: normal;
     text-decoration: #7E808A;
 }
+
+.booksummary div{
+    border-bottom: 1px solid #ffaadd;
+}
+
 .booktitle{
     margin-top: -73px;
 }

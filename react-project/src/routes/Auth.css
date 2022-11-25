@@ -1,0 +1,165 @@
+.login {
+
+
+    /* 로그인 */
+   width: 60px;
+   height: 24px;
+   /* Paragraph/2 */
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   /* identical to box height, or 150% */
+   text-align: right;
+   letter-spacing: -0.24px;
+   /* gray/80 */
+   color: #51535A;
+   /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   }
+   
+   .home-event1{
+   /* Rectangle 1 */
+   position: absolute;
+   width: 1440px;
+   height: 320px;
+   left: 0px;
+   top: 64px;
+   
+   background: #E4E9FF;
+   }
+   
+   .recommand{
+       position: absolute;
+   width: 350px;
+   height: 30px;
+   left: 64px;
+   top: 448px;
+   
+   /* Header/2 */
+   
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   /* identical to box height, or 125% */
+   
+   letter-spacing: -0.24px;
+   
+   /* black */
+   
+   color: #292525;
+   
+   }
+   .small_recommand{
+       position: absolute;
+   width: 210px;
+   height: 24px;
+   left: 64px;
+   top: 490px;
+   
+   /* Paragraph/2 */
+   
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   /* identical to box height, or 150% */
+   
+   letter-spacing: -0.24px;
+   
+   /* gray/50 */
+   
+   color: #7E808A;
+   }
+   .book{
+       position: absolute;
+       width: 210px;
+       height: 24px;
+       left: 64px;
+       top: 600px;
+   }
+   .category{
+   position: absolute;
+   width: 191px;
+   height: 30px;
+   left: 64px;
+   top: 1290px;
+   
+   /* Header/2 */
+   
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   /* identical to box height, or 125% */
+   
+   letter-spacing: -0.24px;
+   
+   /* black */
+   
+   color: #292525;
+   
+   }
+   .whole_category{
+       /* 전체 */
+   width: 28px;
+   height: 24px;
+   
+   /* Paragraph/2 */
+   
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   /* identical to box height, or 150% */
+   
+   letter-spacing: -0.24px;
+   
+   /* black */
+   
+   color: #292525;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   }
+   .human_category{
+       /* 소설 */
+   
+   
+   width: 28px;
+   height: 24px;
+   
+   /* Title/3 */
+   
+   font-family: 'Pretendard';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   /* identical to box height, or 150% */
+   
+   letter-spacing: -0.24px;
+   
+   /* white */
+   
+   color: #FFFFFF;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   }

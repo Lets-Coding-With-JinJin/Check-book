@@ -1,0 +1,215 @@
+.Box
+{
+box-sizing: border-box;
+
+
+width: 811px;
+height: 960px;
+left: 105px;
+top: 64px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/20 */
+
+border: 1px solid #D7DAE7;
+}
+.Text{
+    position: absolute;
+    width: 811px;
+    height: 960px;
+    left: 200px;
+    top: 34px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.24px;
+}
+.EmailBox{
+    /* header/search/focus */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 143px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/20 */
+
+border: 1px solid #D7DAE7;
+border-radius: 8px;
+}
+.PasswordBox{
+  /* header/search/focus */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 16px;
+gap: 8px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 243px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/20 */
+
+border: 1px solid #D7DAE7;
+border-radius: 8px;
+}
+.SubmitBox{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 315px;
+
+/* blue/100 */
+
+background: #456EFF;
+border-radius: 8px;
+}
+.Box_login{
+  
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 415px;
+
+/* blue/100 */
+
+background: #456EFF;
+border-radius: 8px;
+    
+}
+.link_account{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 612px;
+border: 1px solid #D7DAE7;
+border-radius: 8px;
+background: #2d66eb;
+}
+.Box_Account{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 421px;
+top: 612px;
+
+/* white */
+
+background: #986363;
+/* gray/20 */
+
+border: 1px solid #D7DAE7;
+border-radius: 8px;
+}
+.Text_Account{
+    position: absolute;
+width: 151px;
+height: 24px;
+left: 550px;
+top: 572px;
+
+/* Title/3 */
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: -0.24px;
+
+/* black */
+
+color: #292525;
+}
+.Box{
+box-sizing: border-box;
+
+text-align: center;
+width: 811px;
+height: 960px;
+left: 315px;
+top: 64px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/20 */
+
+border: 1px solid #D7DAE7;
+}

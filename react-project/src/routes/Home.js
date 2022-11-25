@@ -60,9 +60,9 @@ const Home=({userObj})=>
         event.preventDefault();
        //nweets 상위 폴더 위로 여러 정보를 파에어 베이스에 연결함
        await addDoc(collection(dbService, "nweets"), {
-            text:nweet,
-            text2:nweet1,
-            text3:nweet2,
+            title:nweet,
+            summary:nweet1,
+            text:nweet2,
             createdAt: Date.now(),
             //creatorId:userObj.uid,
             category: category,

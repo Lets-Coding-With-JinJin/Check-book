@@ -1,7 +1,10 @@
 import React, { Component, useEffect } from 'react';  
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {useState} from 'react';  
 import AppRouter from './Router';
-import {authService} from "../fBase";
+import {authService} from "./fBase";
+import './App.css';
+import Home from './pages/Home';
 
 function App() {
   const [Init, setInit] = useState(false);
@@ -22,10 +25,14 @@ function App() {
   return (
     <>
    
-     {Init ? <AppRouter isLoggedIn={isLoggedIn} userObj={userObj}/> : "Initializing..."}
+      {Init ? <AppRouter isLoggedIn={isLoggedIn} userObj={userObj}/> : "Initializing..."}
+      <Router>
+        <Routes>
+          <Route path="/" exact={true} element={<Home />} />
+        </Routes>
+      </Router> 
      
-     
-     </>
+    </>
    
   );
 }

@@ -1,17 +1,21 @@
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyBGZKDGABXzKKUqasgIZMtCdZ7I0xx4UAI",
-  authDomain: "nwitter-55a3a.firebaseapp.com",
-  projectId: "nwitter-55a3a",
-  storageBucket: "nwitter-55a3a.appspot.com",
-  messagingSenderId: "102065092369",
-  appId: "1:102065092369:web:613d68b9f03176809dbeb0"
-  };
+  apiKey: "AIzaSyA2b2Ijo1oPSZg00nr9x1XK2sliyx_t71I",
+  authDomain: "checkchack-cba2a.firebaseapp.com",
+  projectId: "checkchack-cba2a",
+  storageBucket: "checkchack-cba2a.appspot.com",
+  messagingSenderId: "1005964855023",
+  appId: "1:1005964855023:web:31b93093a3cb45dd5a7d1a",
+  measurementId: "G-E56E46EQMF"
+};
 
-  const app = initializeApp(firebaseConfig);
-  export const authService = getAuth();
-  export const dbService=getFirestore();
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+export const authService = getAuth();
+export const dbService = getFirestore();
+// const analytics = getAnalytics(app);

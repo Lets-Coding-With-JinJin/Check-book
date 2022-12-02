@@ -1,8 +1,8 @@
 import React, { Profiler, useState } from "react";
 import { HashRouter as Router, Route,Navigate, Routes} from "react-router-dom";
 import Auth from "../routes/Auth";
-import Home from "../routes/Home";
-import Profile from "../routes/Profile";
+import Home from "./pages/Home";
+import Profile from "./Profile";
 import App from "./App";
 import Navigation from "components/Navigation";
 import {redirect} from "react-router-dom";

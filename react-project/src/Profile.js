@@ -1,5 +1,5 @@
 import React from "react";
-import { authService } from "fBase";
+import { authService } from "./fBase";
 import {useNavigate} from "react-router-dom";
 
 export default () => {

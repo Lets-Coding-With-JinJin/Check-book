@@ -1,10 +1,10 @@
 import { async } from "@firebase/util";
-import { dbService } from "fBase";
+import { dbService, useState } from "./fBase";
 import React from "react";
 
 const Nweet = ({nweetObj,isOwner})=>{
-    const [editing, setEditing]=useState(false);
-    const [newNweet, setNewNweet]=useState(nweetObj.text);
+    const [editing, setEditing] = useState(false);
+    const [newNweet, setNewNweet] = useState(nweetObj.text);
     const onDeleteClick= async()=>{
         const ok=window.confirm("Are you sure you want to delete this nweet?");
         console.log(ok);

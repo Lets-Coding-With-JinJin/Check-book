@@ -1,6 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Slider from '../components/Slider/Slider';
+import BoardForm from './BoardForm';
+import BookDetail from './BookDetail';
 
 function Home() {
     return (

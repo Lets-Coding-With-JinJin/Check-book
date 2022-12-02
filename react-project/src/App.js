@@ -5,6 +5,8 @@ import AppRouter from './Router';
 import {authService} from "./fBase";
 import './App.css';
 import Home from './pages/Home';
+import BoardForm from './pages/BoardForm';
+import BookDetail from './pages/BookDetail';
 
 function App() {
   const [Init, setInit] = useState(false);
@@ -29,6 +31,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
+          <Route path="/bookdetail" exact={true} element={<BookDetail />} />
+          <Route path="/boardform" exact={true} element={<BoardForm />} />
         </Routes>
       </Router> 
      

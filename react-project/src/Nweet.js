@@ -1,6 +1,7 @@
 import { async } from "@firebase/util";
-import { dbService, useState } from "./fBase";
+import { dbService } from "./fBase";
 import React from "react";
+import {useState} from 'react';  
 
 const Nweet = ({nweetObj,isOwner})=>{
     const [editing, setEditing] = useState(false);

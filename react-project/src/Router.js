@@ -1,11 +1,11 @@
 import React, { Profiler, useState } from "react";
 import { HashRouter as Router, Route,Navigate, Routes} from "react-router-dom";
-import Auth from "../routes/Auth";
+import Auth from "./auth/Auth";
 import Home from "./pages/Home";
 import Profile from "./Profile";
 import App from "./App";
-import Navigation from "components/Navigation";
-import {redirect} from "react-router-dom";
+import Navigation from "./components/Navbar";
+import { redirect } from "react-router-dom";
 
 const AppRouter= ({isLoggedIn,userObj})=>{
    

@@ -1,0 +1,126 @@
+.detailpage{
+    margin-top: 124px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.express {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    height: 34px;
+    margin: 0px 16px 0px 0px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: left;
+    letter-spacing: -0.24px;
+    color: #292525;
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#filter-tag {
+    padding: 8px 20px;
+    background: #F3F4F7;
+    border-radius: 8px;
+    margin: 0px 12px 0px 0px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    color: #292525;
+}
+#writer-top{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    color: #7E808A;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.express button{
+    width: 118px;
+    padding: 12px 16px;
+    background: #456EFF;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+#book-image{
+    width: 194px;
+    height: 290px;
+    left: 64px;
+    top: 128px;
+    border-radius: 8px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D7DAE7;
+    padding: 64px 0;
+}
+.contents{
+    width: 100%;
+    font-family: 'Pretendard';
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.24px;
+    color: #292525;
+}
+.writer {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D7DAE7;
+    padding: 64px 0;
+}
+#writer{
+    width: 82px;
+    height: 30px;
+    left: 64px;
+    top: 852px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.24px;
+    color: #292525;
+}

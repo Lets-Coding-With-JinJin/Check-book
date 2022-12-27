@@ -1,0 +1,71 @@
+.rec-rec{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 64px;
+    top: 448px;
+    
+    /* Header/2 */
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: -0.24px;
+    
+    /* black */
+    
+    color: #292525;
+}
+
+
+
+.rec-ctgy{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 64px;
+    top: 1000px;
+    
+    /* Header/2 */
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: -0.24px;
+    
+    /* black */
+    
+    color: #292525;
+}
+
+.rec-age{
+    position: absolute;
+    width: 580px;
+    height: 30px;
+    left: 64px;
+    top: 1500px;
+    
+    /* Header/2 */
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: -0.24px;
+    
+    /* black */
+    
+    color: #292525;
+}
+

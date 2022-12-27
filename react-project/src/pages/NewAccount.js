@@ -55,14 +55,14 @@ const NewAccount=()=>{
                     </div>
                     <div>
                     <a className='PasswordBox'></a>
-                    <Link to='/home_login'>
-                        <input className='PasswordBox' name="password" type="password" placeholder="Password" required value={password} onChange={onChange}>
+                    <input className='PasswordBox' name="password" type="password" placeholder="Password" required value={password} onChange={onChange}>
                     </input>
-                    </Link>
                 </div>
                 <div>
                     <button className="Box_Account"></button>
-                    <input className="Box_Account" type="submit"  value="Account" />
+                    <Link to='/home_login'>
+                        <input className="Box_Account" type="submit"  value="Account" />
+                    </Link>
 
                 </div>
                 </form>

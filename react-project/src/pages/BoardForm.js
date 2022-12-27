@@ -134,7 +134,39 @@ const BoardForm = ({userObj})=>
                 <div className="title"><h1 id='header'>독서 기록 작성</h1></div>
                 <div className='subtitle'><p id='subtitle'>읽고있는 책 중에서 기록하고자 하는 책을 선택하세요.</p></div>
                 <div className="list">
-                    <p id='book'><img className='img-book' alt='책이미지'></img></p>
+                    <Link className='book1' to='/boardform'>
+                        <img id='img-book1' alt='책 표지' />
+                        <div className='express'>
+                            <div className='row'>
+                                <p id='title'>브로콜리 평원의 혈투</p>
+                            </div>
+                            <div className="bookwriter">
+                                <p id='writer-tag'>듀나</p>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link className='book2' to='/boardform'>
+                        <img id='img-book1' alt='책 표지' />
+                        <div className='express'>
+                            <div className='row'>
+                                <p id='title'>브로콜리 평원의 혈투</p>
+                            </div>
+                            <div className="bookwriter">
+                                <p id='writer-tag'>듀나</p>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link className='book3' to='/boardform'>
+                        <img id='img-book1' alt='책 표지' />
+                        <div className='express'>
+                            <div className='row'>
+                                <p id='title'>브로콜리 평원의 혈투</p>
+                            </div>
+                            <div className="bookwriter">
+                                <p id='writer-tag'>듀나</p>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>

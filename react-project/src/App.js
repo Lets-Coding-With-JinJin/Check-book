@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {useState} from 'react';  
 import AppRouter from './Router';
 import {authService} from "./fBase";
+
 import './App.css';
+
 import Home from './pages/Home';
+import Login from './pages/Login';
 import BoardForm from './pages/BoardForm';
 import BookDetail from './pages/BookDetail';
 
@@ -31,6 +34,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
+          <Route path="/login" exact={true} element={<Login />} />
           <Route path="/bookdetail" exact={true} element={<BookDetail />} />
           <Route path="/boardform" exact={true} element={<BoardForm />} />
         </Routes>

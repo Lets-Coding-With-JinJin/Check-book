@@ -50,7 +50,7 @@ const Auth= () => {
 
     return(
     <div>
-         <div>
+         {/* <div>
             <Link to="/login">로그인</Link>
             
         </div>
@@ -82,7 +82,7 @@ const Auth= () => {
         </div>
         <div className="whole_category">전체</div>
         <div className="human_category">인문학</div>
-        <div className="history_category">역사</div>
+        <div className="history_category">역사</div> */}
 
     </div>
     

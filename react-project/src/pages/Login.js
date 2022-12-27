@@ -3,10 +3,10 @@ import {useState} from 'react';
 import {authService} from '../fBase';
 import {
     createUserWithEmailAndPassword,
-    SignInWithEmailAndPassword,
+    signInWithEmailAndPassword
 } from "firebase/auth";
 import {Link} from "react-router-dom";
-import './login.css';
+import './Login.css';
 import {useNavigate} from 'react-router-dom';
 
 const Login=()=>{
@@ -32,7 +32,7 @@ const Login=()=>{
         try{
             let data;
             
-                 data = await SignInWithEmailAndPassword(
+                 data = await signInWithEmailAndPassword(
                     authService,
                     email,
                     password

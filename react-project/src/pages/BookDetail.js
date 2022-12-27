@@ -8,7 +8,7 @@ class BookDetail extends Component {
         return (
             <div className='detailpage'>
                 <div className='main'>
-                    <img id='book-image' src='./book1.png' alt='책 표지' />
+                    <img id='book-image' src='../../public/Imgs/book1.png' alt='책 표지' />
                     <div className='express'>
                         <div className='row'>
                             <p id='title'>브로콜리 평원의 혈투</p>

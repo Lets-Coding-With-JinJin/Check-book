@@ -25,12 +25,11 @@
     opacity: 1;
   }
   
-  .btn-slide {
+  .btn-slide{
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background: #f1f1f1;
-    border: 1px solid rgba(34, 34, 34, 0.287);
+    background: url("../../../public/Imgs/next.png") no-repeat;
+    border: none;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -44,12 +43,13 @@
     pointer-events: none;
   }
   .prev {
-    top: 50%;
-    left: 20px;
+    top: 35%;
+    left: 10px;
     transform: translateY(-60%);
+    transform: rotate(180deg);
   }
   .next {
-    top: 50%;
+    top: 57%;
     right: 20px;
     transform: translateY(-60%);
   }

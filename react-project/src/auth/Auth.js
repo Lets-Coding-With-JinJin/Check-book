@@ -57,13 +57,14 @@ const Auth= () => {
         <div>
             <img className='home-event1' src='./maineventimg.png' alt='img'></img>
         </div>
-        <div className="login">로그인</div>
-        <div>
-            <button> 
-              Continue with Google
-            </button>
+        <div className="login">로그인</div> */
+        // <div>
+        //     <button> 
+        //       Continue with Google
+        //     </button>
               
-        </div>
+        // </div>
+        /*
         <div className="recommand">
             지금 인기있는 책을 추천드려요
         </div>

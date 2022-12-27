@@ -8,6 +8,7 @@ import './App.css';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
+import NewAccount from './pages/NewAccount';
 import BoardForm from './pages/BoardForm';
 import BookDetail from './pages/BookDetail';
 
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
           <Route path="/login" exact={true} element={<Login />} />
+          <Route path="/newaccount" exact={true} element={<NewAccount />} />
           <Route path="/bookdetail" exact={true} element={<BookDetail />} />
           <Route path="/boardform" exact={true} element={<BoardForm />} />
         </Routes>

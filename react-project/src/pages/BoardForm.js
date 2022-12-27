@@ -8,6 +8,7 @@ import {Link} from "react-router-dom"
 import { FiChevronRight } from "react-icons/fi";
 
 import './BoardForm.css'
+import Navbar from '../components/Navbar_login';
 
 
 const BoardForm = ({userObj})=>
@@ -101,6 +102,9 @@ const BoardForm = ({userObj})=>
     };
     return (
         <>
+            <div className="Navbar">
+                <Navbar />
+            </div>
             <div className="write column">
                 <input className="booktitle" placeholder="도서 제목을 입력하세요"
                     multiline variant="standard" rows={1} name="booktitle" value={nweet} type="text" onChange={onChange} />
@@ -131,7 +135,7 @@ const BoardForm = ({userObj})=>
                 <div className="title"><h1 id='header'>독서 기록 작성</h1></div>
                 <div className='subtitle'><p id='subtitle'>읽고있는 책 중에서 기록하고자 하는 책을 선택하세요.</p></div>
                 <div className="list">
-                    <p id='book'><img src='../../public/Imgs/book1.png'></img></p>
+                    <p id='book'><img className='img-book' alt='책이미지'></img></p>
                 </div>
             </div>
         </>

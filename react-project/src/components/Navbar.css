@@ -80,7 +80,7 @@
 }
 
 .header-search .img-search {
-    content: url(../../public/Imgs/search.png);
+    content: url('../../public/Imgs/search.png');
     margin: 3px 5px;
 }
 
@@ -103,3 +103,80 @@
     top: 23px;
     bottom: 23px;
 }
+
+#curation{
+    /* 큐레이션 */
+    width: 55px;
+    height: 24px;
+    margin: 0 -220px;
+    /* Title/3 */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.24px;
+    color: #292525;
+    /* Inside auto layout */
+    flex:content;
+    order: 1;
+    flex-grow: 0;
+}
+.ul .header-option .curation-img{
+    content: url('../../public/Imgs/curation_img.png');
+    position: absolute;
+    left: -142%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+
+#boardform{
+width: 55px;
+height: 24px;
+margin: 0 -100px;
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.24px;
+color: #292525;
+/* Inside auto layout */
+flex: content;
+order: 1;
+flex-grow: 0;
+}
+
+.ul .header-option .boardform-img{
+    content: url('../../public/Imgs/boardform_img.png');
+    position: absolute;
+    left: -58%;
+    top: 15.5%;
+}
+
+#mypage{
+    width: 80px;
+    height: 24px;
+    margin: 0 10px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.24px;
+    color: #292525;
+    /* Inside auto layout */
+    flex: content;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    .ul .header-option .mypage-img{
+        content: url('../../public/Imgs/mypage_img.png');
+        position: absolute;
+        left: 24%;
+        top: 23.5%;
+    }

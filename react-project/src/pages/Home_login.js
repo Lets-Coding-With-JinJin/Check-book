@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar_login';
 import Slider from '../components/Slider/Slider';
 import BoardForm from './BoardForm';
 import BookDetail from './BookDetail';
+import "./Home.css"
 
 function Home() {
     return (
@@ -15,7 +16,6 @@ function Home() {
             <div className='rec-rec'>박시연 님이 좋아하실만한 책을 소개해 드려요</div>
             <div className='rec-age'>최근에 고등학생 연령대에 가장 많이 조회된 책이에요.</div>
             <div className='rec-ctgy'>카테고리별 추천도서</div>
-            <div className='rec-review'>실시간 서평</div>
             <button class="next">
                 <div className='icon-next' />
             </button>

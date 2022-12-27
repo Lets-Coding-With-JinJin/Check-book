@@ -1,5 +1,5 @@
 .detailpage{
-    margin-top: 124px;
+    margin-top: 70px;
     margin-left: 64px;
     margin-right: 64px;
 }
@@ -64,9 +64,9 @@
     margin-bottom: 24px;
 }
 .express button{
-    width: 118px;
+    width: 135px;
     padding: 12px 16px;
-    background: #456EFF;
+    background: #F3F4F7;
     border-radius: 8px;
     border: 0;
     outline: 0;
@@ -76,6 +76,10 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.24px;
+    color: #7E808A;
+}
+.express button:hover{
+    background-color: #456EFF;
     color: #FFFFFF;
 }
 #book-image{
@@ -84,6 +88,7 @@
     left: 64px;
     top: 128px;
     border-radius: 8px;
+    content: url("../../public/Imgs/book1.png");
 }
 .summary{
     display: flex;

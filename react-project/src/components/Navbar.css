@@ -5,14 +5,17 @@
 
 .logo {
     display: flex;
-    width: 115.43px;
-    height: 16.16px;
-    margin: 0 20px;
+    height: 25px;
+    margin: 16px 40px;
     position: absolute;
     left: 1%;
     right: 0%;
     top: 0.5%;
     bottom: 0.02%;
+}
+
+.logo .img-logo{
+    content: url(../../public/Imgs/signature.png);
 }
 
 .sum {
@@ -76,9 +79,15 @@
     color: #7E808A;
 }
 
+.header-search .img-search {
+    content: url(../../public/Imgs/search.png);
+    margin: 3px 5px;
+}
+
 .header-search-input {
     padding: 0;
-    padding-left: 40px;
+    padding-left: 5px;
+    padding-top: 1px;
     background: none;
     border: none;
     outline: none;

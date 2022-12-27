@@ -7,10 +7,11 @@ function Navbar() {
           <div className='sum'>
               <div className='nav'>
               <div className='logo'>
-                <img img='signature.png' alt='로고'></img>
+                <img class='img-logo' alt='로고'></img>
               </div>
                 <div className="header-search">
-                    <input className="header-search-input" type="text" placeholder="도서명, ISBN, 카테고리" />
+                  <img class='img-search' alt='검색'></img>
+                  <input className="header-search-input" type="text" placeholder="도서명, ISBN, 카테고리" />
                 </div>
                 <div class='ul'>
                       <div className='header-option'>

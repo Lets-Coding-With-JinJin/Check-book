@@ -33,7 +33,7 @@
     letter-spacing: -0.24px;
     color: #292525;
 }
-.selection {
+.filter {
     display: flex;
     flex-direction: row;
     justify-content: center;

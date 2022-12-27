@@ -12,21 +12,57 @@ const Nweet = ({nweetObj,isOwner})=>{
         if(ok){
             //delete nweet
             await dbService.doc(`nweets/&{nweetObj.id}`).delete();
-
         }
-
     };
-    <div>
-        <h4>{nweetObj.text}</h4>
-        {isOwner && (
-        <>
-        <button onClick={onDeleteClick}>Delete Nweet</button>
-        <button>Edit Nweet</button>
-        </>
-      )}
-    </div>
-
-
-        };
+    const toggleEditing = () => setEditing((prev) => !prev);
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      await dbService.doc(`nweets/${nweetObj.id}`).update({
+        text: newNweet,
+      });
+      setEditing(false);
+    };
+    const onChange = (event) => {
+      const {
+        target: { value },
+      } = event;
+      setNewNweet(value);
+    };
+    return (
+      <div className="nweet">
+        {editing ? (
+          <>
+            <form onSubmit={onSubmit} className="container nweetEdit">
+              <input
+                type="text"
+                placeholder="Edit your nweet"
+                value={newNweet}
+                required
+                autoFocus
+                onChange={onChange}
+                className="formInput"
+              />
+              <input type="submit" value="Update Nweet" className="formBtn" />
+            </form>
+            <span onClick={toggleEditing} className="formBtn cancelBtn">
+              Cancel
+            </span>
+          </>
+        ) : (
+          <>
+            <h4>{nweetObj.text}</h4>
+            {isOwner && (
+              <div class="nweet__actions">
+                <span onClick={onDeleteClick}>
+                </span>
+                <span onClick={toggleEditing}>
+                </span>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    );
+  };
 
 export default Nweet;

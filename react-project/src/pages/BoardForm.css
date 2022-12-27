@@ -1,7 +1,7 @@
 .write.column{
     position: absolute;
     flex-direction: column;
-    width: 835px;
+    width: 700px;
     height: 786px;
     margin-left: 541px;
     margin-top: 64px;
@@ -9,7 +9,7 @@
     box-shadow: 0px #D7DAE7;
 }
 
-.booktitle label{
+.booktitle::placeholder{
     font-size: 24px;
     font-weight: 700;
     padding: 0px 4px;
@@ -20,14 +20,15 @@
     text-decoration: #7E808A;
 }
 
-.booksummary div{
-    border-bottom: 1px solid #ffaadd;
-}
-
 .booktitle{
+    position: absolute;
+    width: 700px;
+    height: 94px;
+    top: 64px;
     margin-top: -73px;
 }
-.booksummary label{
+
+.booksummary::placeholder{
     font-size: 16px;
     font-weight: 500;
     padding: 0px 4px;
@@ -38,7 +39,14 @@
     text-decoration: #7E808A;
 }
 
-.booknote label{
+.booksummary{
+    position: absolute;
+    width: 700px;
+    height: 72px;
+    top: 85px;
+}
+
+.booknote::placeholder{
     font-size: 16px;
     font-weight: 500;
     padding: 0px 4px;
@@ -50,30 +58,57 @@
     text-align: top;
 }
 
-.savebutton button{
-    left: 8px;
-    top: 80px;
+.booknote{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 160px;
+}
+
+#submit-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 573px;
+    top: 1000px;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D7DAE7;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.submit{
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 16px;
     gap: 10px;
-
-    width: 389.5px;
+    width: 80px;
     height: 48px;
-    /* gray/10 */
-    background:  #456EFF;
+    background: #456EFF;
     border-radius: 8px;
-
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    letter-spacing: -0.24px;
-    /* gray/50 */
-    color: #FFFF;
+    border: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
 }
 
 /* ----------------------- */

@@ -113,12 +113,11 @@ const BoardForm = ({userObj})=>
                 <input className="booknote" placeholder="독서 기록 내용을 작성해주세요"
                     multiline variant="standard" rows={20} name="booknote" value={nweet2} type="text" onChange={onChange2} />
             </div>
-            <form onSubmit={onSubmit}>
-            <select className= "selection" id='book' onChange={changeCategory1}>
+            <form onSubmit={onSubmit} id="submit-form">
+                <select className= "selection" id='book' onChange={changeCategory1}>
                     <option value='공개'>공개</option>
                     <option value='비공개'>비공개</option>
-                    
-            </select>
+                </select>
                 <input className="submit" type="submit" value="독서 기록 작성 완료" /> 
             </form>
             <div>

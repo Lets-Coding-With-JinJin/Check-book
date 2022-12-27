@@ -55,8 +55,10 @@ const NewAccount=()=>{
                     </div>
                     <div>
                     <a className='PasswordBox'></a>
-                    <input className='PasswordBox' name="password" type="password" placeholder="Password" required value={password} onChange={onChange}>
+                    <Link to='/home_login'>
+                        <input className='PasswordBox' name="password" type="password" placeholder="Password" required value={password} onChange={onChange}>
                     </input>
+                    </Link>
                 </div>
                 <div>
                     <button className="Box_Account"></button>

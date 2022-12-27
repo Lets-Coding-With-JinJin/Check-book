@@ -7,10 +7,12 @@ import {authService} from "./fBase";
 import './App.css';
 
 import Home from './pages/Home';
+import Home_login from './pages/Home_login';
 import Login from './pages/Login';
 import NewAccount from './pages/NewAccount';
 import BoardForm from './pages/BoardForm';
 import BookDetail from './pages/BookDetail';
+import Mypage from './pages/Mypage';
 
 function App() {
   const [Init, setInit] = useState(false);
@@ -35,10 +37,12 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
+          <Route path="/home_login" exact={true} element={<Home_login />} />
           <Route path="/login" exact={true} element={<Login />} />
           <Route path="/newaccount" exact={true} element={<NewAccount />} />
           <Route path="/bookdetail" exact={true} element={<BookDetail />} />
           <Route path="/boardform" exact={true} element={<BoardForm />} />
+          <Route path="/mypage" exact={true} element={<Mypage />} />
         </Routes>
       </Router> 
      

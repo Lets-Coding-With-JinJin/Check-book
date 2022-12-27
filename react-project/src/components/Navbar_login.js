@@ -16,7 +16,7 @@ function Navbar_login() {
                 <div class='ul'>
                       <div className='header-option'>
                         <img class='curation-img' alt='큐레이션이미지'></img>
-                        <Link className='headeroptionone' to='/' id='curation'>큐레이션</Link>
+                        <Link className='headeroptionone' to='/home_login' id='curation'>큐레이션</Link>
                       </div>
                       <div className='header-option'>
                         <img class='boardform-img' alt='독서기록이미지'></img>
@@ -24,7 +24,7 @@ function Navbar_login() {
                       </div>
                       <div className='header-option'>
                         <img class='mypage-img' alt='마이페이지이미지'></img>
-                        <Link className='headeroptionone' to='/' id='mypage'>마이페이지</Link>
+                        <Link className='headeroptionone' to='/mypage' id='mypage'>마이페이지</Link>
                       </div>
                 </div>
              </div>

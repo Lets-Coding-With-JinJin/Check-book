@@ -61,7 +61,9 @@ const Login=()=>{
                 </div>
                 <div>
                     <a className="Box_Account"></a>
-                    <input className="Box_Account" type="submit"  value="Create Account" />
+                    <Link to='/home_login'>
+                        <input className="Box_Account" type="submit"  value="Create Account"/>
+                    </Link>
                 </div>
                 <div>
                     <div className="Text_Account">계정이 없으신가요?</div>
